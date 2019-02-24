@@ -18,7 +18,8 @@
 --
 -- Table structure for table `medical_history`
 --
-create database gymdb;
+
+create database  IF NOT EXISTS gymdb;
 use  gymdb;
 DROP TABLE IF EXISTS `medical_history`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
